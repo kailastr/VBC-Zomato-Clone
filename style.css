@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.section_hero {
+    background: url(images/heroSectionBackground.png);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 15px 200px;
+}
+
+.navbar_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    /* font-size: large; */
+}
+
+.navbar_menu_link {
+    font-size: larger;
+}
+
+.navbar_get_the_app {
+    font-size: medium;
+}
+
+.section_hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    height: calc(60vh - 60px);
+}
+
+.section_hero_logo {
+    width: 300px;
+}
+
+.section_hero_heading {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section_hero_input_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section_hero_input_location,
+.section_hero_input_restaurant {
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+.section_hero_input_location {
+    width: 35%;
+}
+
+.section_hero_input_restaurant {
+    width: 65%;
+    border-left: 1px solid rgb(108, 108, 108);
+}
