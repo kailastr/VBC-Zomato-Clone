@@ -1,3 +1,4 @@
+/* Day 1 of Header Styling */
 * {
     padding: 0px;
     margin: 0px;
@@ -83,4 +84,127 @@
 .section_hero_input_restaurant {
     width: 65%;
     border-left: 1px solid rgb(108, 108, 108);
+}
+
+/* Day 2 */
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.we_offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.we_offer_card {
+    /* width: 250px; */
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.we_offer_card:hover {
+    transform: scale(1.05);
+}
+
+.we_offer_card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.we_offer_content {
+    padding: 20px;
+}
+
+.we_offer_card h3 {
+    font-weight: 450;
+}
+
+.we_offer_card p {
+    color: gray;
+    font-weight: 100;
+}
+
+.collections h1 {
+    font-size: xx-large;
+    font-weight: 500;
+    padding-top: 20px;
+    display: flex;
+}
+
+.collections .collections_subheading {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    gap: 1rem;
+}
+
+.collections_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.collections_card_container .collection_card {
+    height: 300px;
+    width: 240px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.collection_card_content {
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.collection_card_content h4 {
+    font-weight: 400;
+    font-size: larger;
+}
+
+.card1 {
+    background: url(images/collection1.jpg);
+}
+
+.card2 {
+    background: url(images/collection2.jpg);
+}
+
+.card3 {
+    background: url(images/collection3.jpg);
+}
+
+.card4 {
+    background: url(images/collection4.jpg);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.02) 85%);
 }
